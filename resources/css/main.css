@@ -1,0 +1,31 @@
+html {
+	font-size: 62.5%;
+	padding: 0rem;
+	margin: 0rem;
+}
+
+body {
+	padding: 0rem 5rem;
+}
+
+h1,
+p,
+span,
+a,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+    font-weight: 400;
+    font-size: 5rem;
+}
+
+p,
+span,
+a,
+li {
+    font-weight: 300;
+    font-size: 3rem;
+}
