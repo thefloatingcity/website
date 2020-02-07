@@ -5,27 +5,25 @@ html {
 }
 
 body {
-	padding: 0rem 5rem;
+    padding: 0rem 5rem;
 }
 
 h1,
 p,
-span,
 a,
-li {
+ul {
     font-family: 'Roboto', sans-serif;
 }
 
-h1,
-h2 {
+h1 {
+    text-align: center;
     font-weight: 400;
     font-size: 5rem;
 }
 
 p,
-span,
 a,
-li {
+ul {
     font-weight: 300;
     font-size: 3rem;
 }
