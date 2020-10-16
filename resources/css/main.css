@@ -1,29 +1,96 @@
 html {
-	font-size: 62.5%;
-	padding: 0rem;
-	margin: 0rem;
+    font-size: 62.5%;
+}
+
+@media screen and (max-width: 700px) {
+    html {
+        font-size: 50%;
+    }
 }
 
 body {
-    padding: 0rem 5rem;
-}
-
-h1,
-p,
-a,
-ul {
-    font-family: 'Roboto', sans-serif;
+    margin: 0rem;
 }
 
 h1 {
-    text-align: center;
-    font-weight: 400;
+    font-family: "Varela", sans-serif;
+}
+
+p,
+a,
+ul {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
     font-size: 5rem;
 }
 
 p,
 a,
 ul {
-    font-weight: 300;
-    font-size: 3rem;
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 0rem 40vw 0rem 10rem;
+}
+
+@media screen and (max-width: 1500px) {
+    section {
+        padding: 0rem 30vw 0rem 10rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    section {
+        padding: 0rem 10rem 0rem 10rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    section {
+        padding: 0rem 4rem 0rem 4rem;
+    }
+}
+
+#navbar ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0px;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0rem 10rem;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+#navbar li {
+    float: left;
+}
+
+@media screen and (max-width: 650px) {
+    #navbar ul li {
+        float: none;
+    }
+}
+
+#navbar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+    color: #000;
+}
+
+#navbar a.active {
+    background-color: #5a5;
+    color: white;
+}
+
+#navbar li a:hover:not(.active) {
+    background-color: #55a;
+    color: white;
 }
