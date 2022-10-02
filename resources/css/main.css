@@ -32,29 +32,29 @@ ul {
     font-size: 2.5rem;
 }
 
-section {
+main {
     padding: 0rem 40vw 0rem 10rem;
 }
 
 @media screen and (max-width: 1500px) {
-    section {
+    main {
         padding: 0rem 30vw 0rem 10rem;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    section {
+    main {
         padding: 0rem 10rem 0rem 10rem;
     }
 }
 
 @media screen and (max-width: 700px) {
-    section {
+    main {
         padding: 0rem 4rem 0rem 4rem;
     }
 }
 
-#navbar ul {
+navbar ul {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
@@ -66,17 +66,17 @@ section {
     background-color: #f1f1f1;
 }
 
-#navbar li {
+navbar li {
     float: left;
 }
 
 @media screen and (max-width: 650px) {
-    #navbar ul li {
+    navbar ul li {
         float: none;
     }
 }
 
-#navbar li a {
+navbar li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -85,12 +85,12 @@ section {
     color: #000;
 }
 
-#navbar a.active {
+navbar a.active {
     background-color: #5a5;
     color: white;
 }
 
-#navbar li a:hover:not(.active) {
+navbar li a:hover:not(.active) {
     background-color: #55a;
     color: white;
 }
