@@ -1,0 +1,10 @@
+url: "https://thefloating.city"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
